@@ -11,7 +11,7 @@ header{
 main{
   width:100%;
   margin:auto;
-  background-color: purple;
+  background-color: lightblue;
   color: white;
   margin-top: 15px;
   padding-top: 30px;
@@ -49,15 +49,11 @@ h4{
 
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(6,1fr);
   grid-gap: 50px;
 }
 
-.grid-content{
-  display: gird;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 50%
-}
+
 .grid-content2{
   width: 100%
   float: left;
@@ -104,8 +100,8 @@ h4{
 }
 
 .storsak{
-  grid-column: span 2;
-  grid-row: span 2;
+  grid-column: span 4;
+  grid-row: span 3;
 
   position: relative;
   width: 100%;
@@ -115,7 +111,7 @@ h4{
   opacity: 1;
 }
 .litenLiten{
-  grid-column: span 1;
+  grid-column: span 2;
   grid-row: span 1;
 
   position: relative;
@@ -127,18 +123,18 @@ h4{
   }
 
 .litenMiddels{
-
+  display: grid;
+  grid-template-columns: 50% 50%;
   position: relative;
   width: 100%;
   float: left;
-
   position: relative;
-  width: 100%;
-
 }
  .litenMiddels:hover .overplay {
    opacity: 1;
  }
+
+
 
   .overlay {
   position: absolute;
@@ -199,8 +195,20 @@ h4{
   width: 100%
   padding: 5px;
 }
-.row2 {
-  width: 50% 50%;
+.row2 img.sticky{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.row2 img{
+  width: 50%
+}
+
+.row2.rower {
+  grid-template-columns: span 1;
+}
+.row2.rowne{
+  grid-template-columns: span 2;
 }
 .første{
   float: left;
