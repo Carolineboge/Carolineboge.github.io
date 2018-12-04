@@ -47,6 +47,10 @@ h4{
   color: black;
 }
 
+img{
+  width: 100%;
+}
+
 .grid-container{
   display: grid;
   grid-template-columns: repeat(6,1fr);
@@ -96,7 +100,7 @@ h4{
   clear: both;
 }
 #hjem{
-  grid-column: 3;
+  grid-column: 6;
 }
 
 .storsak{
@@ -123,12 +127,10 @@ h4{
   }
 
 .litenMiddels{
-  display: grid;
-  grid-template-columns: 50% 50%;
+
+  grid-column: span 3;
   position: relative;
-  width: 100%;
-  float: left;
-  position: relative;
+
 }
  .litenMiddels:hover .overplay {
    opacity: 1;
@@ -216,24 +218,36 @@ h4{
   padding: 5px;
 }
 .tab{
-  overflow: hidden;
+
+    overflow: hidden;
     border: 1px solid pink;
     background-color: white;
     width: 750px;
+    overflow: hidden;
+
+}
+.tab a{
+  text-decoration: none;
+  color: white;
 }
 .tab button {
     background-color: pink;
-    float: left;
-    border: none;
-    outline: none;
+    border: 1px solid purple;
+    color: white;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 10px 24px;
     transition: 0.3s;
+    float: left;
 }
 .tab button:hover{
   background-color:purple;
 }
 .tab button.active {
-    background-color: #ccc;
+    background-color: white;
     transition: .5s ease;
+}
+.tap:after{
+  content: "";
+  clear: both;
+  display: table;
 }
