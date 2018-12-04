@@ -1,0 +1,117 @@
+body{
+  background-color: pink;
+  font-family: serif;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% repeat(4, 10%);
+  align-items: center;
+}
+
+h1{
+  color: purple;
+  width: 100%;
+}
+
+h2{
+  color: purple;
+  text-decoration: none;
+}
+
+
+#hjem{
+  grid-column: 3;
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img{
+  width: 100%;
+}
+
+
+.topnav a{
+  display: grid;
+  color: #purple;
+  text-decoration: none;
+  overflow: hidden;
+  text-align: center;
+
+  background-color: white;
+  padding: 14% 16%;
+  color: purple;
+
+}
+
+
+.topnav a:hover{
+  background-color: #pink;
+  color: pink;
+  transition: all 0.3s ease;
+}
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+.kjempestorsak{
+  grid-column: span 4;
+  grid-row: span 4;
+  width: 100%;
+}
+
+.storsak{
+  grid-column: span 3;
+  grid-row: span 3;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+  position: relative;
+
+
+}
+.middelssak{
+grid-column: span 2;
+grid-row: span 2;
+}
+.litensak{
+  grid-column: span 1;
+  grid-row: span 1;
+
+  opacity: 1;
+}
+
+.disneysak{
+  width: 250%;
+  grid-row: span 2;
+}

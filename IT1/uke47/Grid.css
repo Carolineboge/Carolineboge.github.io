@@ -1,0 +1,231 @@
+body{
+  background-color: pink;
+  font-family: serif;
+}
+
+header{
+  display: grid;
+  align-items: center;
+}
+
+main{
+  width:100%;
+  margin:auto;
+  background-color: purple;
+  color: white;
+  margin-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+}
+
+main h1{
+  color: white;
+}
+
+main p{
+  color: white;
+}
+
+h1{
+  color: purple;
+  width: 100%;
+}
+
+h2{
+  color: white;
+  text-decoration: none;
+}
+
+h3{
+  color: purple;
+}
+
+h4{
+  color: black;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+}
+
+.grid-content{
+  display: gird;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50%
+}
+.grid-content2{
+  width: 100%
+  float: left;
+}
+
+.grid-container img{
+  width: 100%;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a:hover {
+    background-color: #F8E0E6;
+    color: white;
+
+}
+
+.topnav a.active {
+    background-color: #8A0868;
+    color: white;
+}
+
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#hjem{
+  grid-column: 3;
+}
+
+.storsak{
+  grid-column: span 2;
+  grid-row: span 2;
+
+  position: relative;
+  width: 100%;
+}
+
+.storsak:hover .overlay{
+  opacity: 1;
+}
+.litenLiten{
+  grid-column: span 1;
+  grid-row: span 1;
+
+  position: relative;
+  width: 100%;
+  }
+
+  .litenLiten:hover .overlay {
+    opacity: 1;
+  }
+
+.litenMiddels{
+
+  position: relative;
+  width: 100%;
+  float: left;
+
+  position: relative;
+  width: 100%;
+
+}
+ .litenMiddels:hover .overplay {
+   opacity: 1;
+ }
+
+  .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column{
+    float: left;
+    width: 30%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.content p {
+  color: black;
+}
+
+.prinseese img{
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.prinseese p {
+  width: 100%
+  padding: 5px;
+}
+.row2 {
+  width: 50% 50%;
+}
+.første{
+  float: left;
+  width: 40% ;
+  padding: 5px;
+}
+.tab{
+  overflow: hidden;
+    border: 1px solid pink;
+    background-color: white;
+    width: 750px;
+}
+.tab button {
+    background-color: pink;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab button:hover{
+  background-color:purple;
+}
+.tab button.active {
+    background-color: #ccc;
+    transition: .5s ease;
+}

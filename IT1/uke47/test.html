@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nettavis</title>
+    <link rel="stylesheet" href="Grid.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Disney prinsesser</h1>
+      <form action="register.html">
+
+      <div class="topnav">
+        <a class="active" href="prosjekt.html">Hjem</a>
+        <a href="toppliste.html">Toppliste</a>
+        <a href="hjelpere.html">Hjelpere</a>
+        <a href="test.html">Test</a>
+        <input type="text" placeholder="Search..">
+      </div>
+    </header>
+
+    <main>
+      <h1>Hvilke prinsesse er du?</h1>
+
+      <label for="inputNavn">Fornavn:</label>
+      <input id="inputNavn"type="text" name="Navn" placeholder="Skriv inn ditt navn" required>
+
+      <label for="inputNavn">Etternavn:</label>
+      <input id="inputNavn"type="text" name="Navn" placeholder="Skriv inn ditt navn" required>
+      <br>
+      <br>
+      <label for="inputAlder">Alder:</label>
+      <input id="inputAlder"type="number" name="Alder" placeholder="Skriv inn din alder" required>
+      <br>
+
+      <p><b>Hvor liker du å være på fritiden?</b></p>
+      <input id="rbParken" type="radio" name="rbFritid" value="fritid" > <label for="rbPark">I parken</label>
+      <input id="rbHavet"type="radio" name="rbFritid" value="fritid"> <label for="rbHavet">På havet</label>
+      <input id="rbBallsal"type="radio" name="rbFritid" value="fritid"> <label for="rbBallsal">I ballsalen</label>
+
+      <p><b>Hva er ditt favoritt dyr?</b></p>
+      <input id="rbHest" type="radio" name="rbDyr" value="fritid" > <label for="rbDyr">Hest</label>
+      <input id="rbKrabbe"type="radio" name="rbDyr" value="fritid"> <label for="rbDyr">Krabbe</label>
+      <input id="rbSnømann"type="radio" name="rbDyr" value="fritid"> <label for="rbDyr">Snømann</label>
+
+      <p><b>Hva er din favoritt farge?</b></p>
+      <input id="rbHest" type="radio" name="rbFarge" value="fritid" > <label for="rbFarge">Blå</label>
+      <input id="rbKrabbe"type="radio" name="rbFarge" value="fritid"> <label for="rbFarge">Rosa</label>
+      <input id="rbSnømann"type="radio" name="rbFarge" value="fritid"> <label for="rbFarge">Gul</label>
+
+      <br>
+      <button type="sumbit" name="regisreringsKnapp">Send inn</button>
+    </main>
