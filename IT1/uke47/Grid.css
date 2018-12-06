@@ -251,3 +251,58 @@ img{
   clear: both;
   display: table;
 }
+.poca{
+  grid-column: span 2;
+}
+
+.poca img{
+  height: 170px;
+}
+.mula{
+  grid-column: span 3;
+
+}
+.mula img{
+  height: 300px;
+}
+
+.rapu{
+  grid-column: span 2;
+}
+.rapu img{
+  width: 100%;
+  height: 250px;
+}
+.rapo{
+  grid-column: span 1;
+}
+.rapo img{
+  width: 200px;
+  height: 250px;
+}
+.rapl{
+  grid-column: span 3;
+}
+
+.meri{
+  grid-column: span 2;
+}
+
+.meri img{
+  height: 250px;
+}
+.elsa{
+  grid-column: span 1.5;
+}
+.elsa img{
+  width: 100%;
+}
+.anna{
+  grid-column: span 3;
+}
+.frozen{
+  grid-column: span 3;
+}
+.frost{
+  grid-column: span 2;
+}
