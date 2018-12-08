@@ -138,7 +138,7 @@ img{
 
 
 
-  .overlay {
+.overlay {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
@@ -305,4 +305,96 @@ img{
 }
 .frost{
   grid-column: span 2;
+}
+.moana{
+  grid-column: span 2;
+}
+.mo {
+  grid-column: span 3;
+}
+.toppliste{
+  grid-column: span 1;
+  position: relative;
+  width: 100%;
+}
+.toppliste img{
+ height: 60px;
+ width: 100%;
+}
+
+
+
+/* Make the image to responsive */
+.image2{
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: pink;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.toppliste:hover .overlay2 {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.nett{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-instagram{
+  background-color:purple;
+  color: white;
+
 }
