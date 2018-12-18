@@ -72,6 +72,21 @@ img{
     overflow: hidden;
 }
 
+.logo{
+  grid-column: 1;
+}
+.logo img{
+  width: 100px;
+}
+
+.overskrift{
+  grid-column: 2;
+}
+.overskrift h1{
+  width: 400%;
+
+}
+
 .topnav a {
     float: right;
     color: purple;
@@ -403,3 +418,30 @@ img{
   color: white;
 
 }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content button:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
