@@ -1,0 +1,34 @@
+body{
+  background-color: lightblue;
+  color: black;
+  text-decoration-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+h1{
+  color: black;
+
+}
+
+li a{
+
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+}
+li{
+  display: inline;
+}
+video{
+  width: 300px;
+}
+
+img{
+  width: 400px;
+}
+
+table{
+  background-color: white;
+}

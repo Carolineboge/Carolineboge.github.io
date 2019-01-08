@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nettavis</title>
+    <link rel="stylesheet" href="Grid.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="grid-container">
+        <div class="logo">
+
+        <img src="Logo2.png" alt="">
+        </div>
+
+        <div class="overskrift">
+        <h1>Disney prinsesser</h1>
+      </div>
+      </div>
+
+      <form action="register.html">
+
+      <div class="topnav">
+        <a class="active" href="prosjekt.html">Hjem</a>
+        <a href="toppliste.html">Toppliste</a>
+        <a href="hjelpere.html">Hjelpere</a>
+        <a href="test.html">Test</a>
+
+        <div class="dropdown">
+        <a href="#">Generasjon</a>
+          <div class="dropdown-content">
+          <a href="1generasjon.html">Første generasjon</a>
+          <a href="2generasjon.html">Andre generasjon</a>
+          <a href="3generasjon.html">Tredje generasjon</a>
+          <a href="4generasjon.html">Fjerde generasjon</a>
+          <a href="5generasjon.html">Femte generasjon</a>
+        </div>
+          </div>
+
+        <input type="text" placeholder="Search..">
+      </div>
+    </header>
+
+    <main>
+      <h1>Hvilke prinsesse er du?</h1>
+      <p>Lurer du på hvilke disneyprinsesse du er? Ta denne testen og finn det ut!</p>
+
+      <label for="inputNavn">Fornavn:</label>
+      <input id="inputNavn"type="text" name="Navn" placeholder="Skriv inn ditt navn" required>
+
+      <label for="inputNavn">Etternavn:</label>
+      <input id="inputNavn"type="text" name="Navn" placeholder="Skriv inn ditt navn" required>
+      <br>
+      <br>
+      <label for="inputAlder">Alder:</label>
+      <input id="inputAlder"type="number" name="Alder" placeholder="Skriv inn din alder" required>
+      <br>
+
+      <p><b>Hvor liker du å være på fritiden?</b></p>
+      <input id="rbParken" type="radio" name="rbFritid" value="fritid" > <label for="rbPark">I parken</label>
+      <input id="rbHavet"type="radio" name="rbFritid" value="fritid"> <label for="rbHavet">På havet</label>
+      <input id="rbBallsal"type="radio" name="rbFritid" value="fritid"> <label for="rbBallsal">I ballsalen</label>
+
+      <p><b>Hva er ditt favoritt dyr?</b></p>
+      <input id="rbHest" type="radio" name="rbDyr" value="fritid" > <label for="rbDyr">Hest</label>
+      <input id="rbKrabbe"type="radio" name="rbDyr" value="fritid"> <label for="rbDyr">Krabbe</label>
+      <input id="rbSnømann"type="radio" name="rbDyr" value="fritid"> <label for="rbDyr">Snømann</label>
+
+      <p><b>Hva er din favoritt farge?</b></p>
+      <input id="rbHest" type="radio" name="rbFarge" value="fritid" > <label for="rbFarge">Blå</label>
+      <input id="rbKrabbe"type="radio" name="rbFarge" value="fritid"> <label for="rbFarge">Rosa</label>
+      <input id="rbSnømann"type="radio" name="rbFarge" value="fritid"> <label for="rbFarge">Gul</label>
+
+      <br>
+      <button type="sumbit" name="regisreringsKnapp">Send inn</button>
+    </main>
+
+    <footer>
+      <div class="butnav">
+        <a class="active" href="prosjekt.html">Hjem</a>
+        <a href="toppliste.html">Toppliste</a>
+        <a href="hjelpere.html">Hjelpere</a>
+        <a href="test.html">Test</a>
+        <input type="text" placeholder="Search..">
+      </div>
+
+      <br>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div class="nett">
+        <a href="https://www.facebook.com/DisneyPrincess/" class="fa fa-facebook" target=blanke></a>
+        <a href="https://twitter.com/hashtag/disneyprincess?lang=en" class="fa fa-twitter" target=blanke></a>
+        <a href="https://www.youtube.com/user/WaltDisneyStudiosNO/" class="fa fa-youtube" target=blanke></a>
+        <a href="https://www.instagram.com/thedisneyprincesses/?hl=en" class="fa fa-instagram" target=blanke></a>
+      </div>
+    </footer>
+  </body>
+  </html>

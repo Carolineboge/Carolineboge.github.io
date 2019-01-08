@@ -1,0 +1,85 @@
+header > nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.topnav{
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 48px;
+  border-radius: 4px;
+  box-shadow: 4px 4px;
+  margin-bottom: 20px;
+}
+
+.topnav a, .topnav div {
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  
+}
+h3{
+  text-align: center;
+}
+
+@media(max-width:500px){
+  header>nav{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+@media(max-width: 1400px){
+  main{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: lightyellow;
+  }
+  body{
+    background-image: url("bilder/london.jpg");
+  }
+}
+@media(max-width: 1000px){
+  main{
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightpink ;
+  }
+  body{
+    background-image: url("bilder/londoneye.jpg");
+  }
+}
+@media(max-width: 800px){
+  main{
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+  }
+  body{
+    background-image: url("bilder/telefon.jpg");
+  }
+}
+
+@media(max-width: 600px){
+  main{
+    grid-template-columns: 1fr;
+    background-color: lightblue;
+  }
+  body{
+    background-image: url("bilder/tower.jpg");
+  }
+}
+img{
+  width: 100%;
+}

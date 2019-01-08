@@ -1,0 +1,493 @@
+body{
+  background-color: pink;
+  font-family: serif;
+}
+
+header{
+  display: grid;
+  align-items: center;
+}
+
+main{
+  width:100%;
+  margin:auto;
+  background-color: lightblue;
+  color: white;
+  margin-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+}
+
+main h1{
+  color: white;
+}
+
+main p{
+  color: white;
+}
+
+h1{
+  color: purple;
+  width: 100%;
+}
+
+h2{
+  color: white;
+  text-decoration: none;
+}
+
+h3{
+  color: purple;
+}
+
+h4{
+  color: black;
+}
+
+img{
+  width: 100%;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 50px;
+}
+
+
+.grid-content2{
+  width: 100%
+  float: left;
+}
+
+.grid-container img{
+  width: 100%;
+}
+
+.topnav {
+    background-color: white;
+    /*overflow: hidden;*/
+}
+
+.logo{
+  grid-column: 1;
+}
+.logo img{
+  width: 100px;
+}
+
+.overskrift{
+  grid-column: 2;
+}
+.overskrift h1{
+  width: 400%;
+
+}
+
+.topnav a, .topnav div {
+    float: right;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav div{
+   margin-top: -15px;
+}
+
+.topnav a{
+  display: block;
+
+}
+
+.topnav a:hover {
+    background-color: #F8E0E6;
+    color: white;
+
+}
+
+.topnav a.active {
+    background-color: #8A0868;
+    color: white;
+}
+
+.butnav, background{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+
+    /*overflow: hidden;*/
+}
+
+.butnav a, .topnav div {
+    float: right;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.butnav div{
+   margin-top: -15px;
+}
+
+.butnav a{
+  display: block;
+
+}
+
+.butnav a:hover {
+    background-color: #F8E0E6;
+    color: white;
+
+}
+
+.butnav a.active {
+    background-color: #8A0868;
+    color: white;
+}
+
+
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#hjem{
+  grid-column: 6;
+}
+
+.storsak{
+  grid-column: span 4;
+  grid-row: span 3;
+
+  position: relative;
+  width: 100%;
+}
+
+.storsak:hover .overlay{
+  opacity: 1;
+}
+.litenLiten{
+  grid-column: span 2;
+  grid-row: span 1;
+
+  position: relative;
+  width: 100%;
+  }
+
+  .litenLiten:hover .overlay {
+    opacity: 1;
+  }
+
+  .Middels{
+    grid-column: span 3;
+    grid-row: span 2;
+
+    position: relative;
+    width: 100%;
+    }
+
+    .Middels:hover .overlay {
+      opacity: 1;
+    }
+
+
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);;
+  color: #f1f1f1;
+  width: 100%;
+  font-size: 30px;
+  padding: inherit;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  text-align: center;
+
+}
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column{
+    float: left;
+    width: 30%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.content p {
+  color: black;
+}
+
+.prinseese img{
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.prinseese p {
+  width: 100%
+  padding: 5px;
+}
+.row2 img.sticky{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.row2 img{
+  width: 50%
+}
+
+.row2.rower {
+  grid-template-columns: span 1;
+}
+.row2.rowne{
+  grid-template-columns: span 2;
+}
+.første{
+  float: left;
+  width: 40% ;
+  padding: 5px;
+}
+.tab{
+
+    overflow: hidden;
+    border: 1px solid pink;
+    background-color: white;
+    width: 750px;
+    overflow: hidden;
+
+}
+.tab a{
+  text-decoration: none;
+  color: white;
+}
+.tab button {
+    background-color: pink;
+    border: 1px solid purple;
+    color: white;
+    cursor: pointer;
+    padding: 10px 24px;
+    transition: 0.3s;
+    float: left;
+}
+.tab button:hover{
+  background-color:purple;
+}
+.tab button.active {
+    background-color: white;
+    transition: .5s ease;
+}
+.tap:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.poca{
+  grid-column: span 2;
+}
+
+.poca img{
+  height: 170px;
+}
+.mula{
+  grid-column: span 3;
+
+}
+.mula img{
+  height: 300px;
+}
+
+.rapu{
+  grid-column: span 2;
+}
+.rapu img{
+  width: 100%;
+  height: 250px;
+}
+.rapo{
+  grid-column: span 1;
+}
+.rapo img{
+  width: 200px;
+  height: 250px;
+}
+.rapl{
+  grid-column: span 3;
+}
+
+.meri{
+  grid-column: span 2;
+}
+
+.meri img{
+  height: 250px;
+}
+.elsa{
+  grid-column: span 1.5;
+}
+.elsa img{
+  width: 100%;
+}
+.anna{
+  grid-column: span 3;
+}
+.frozen{
+  grid-column: span 3;
+}
+.frost{
+  grid-column: span 2;
+}
+.moana{
+  grid-column: span 2;
+}
+.mo {
+  grid-column: span 3;
+}
+.toppliste{
+  grid-column: span 1;
+  position: relative;
+  width: 100%;
+}
+.toppliste img{
+ height: 60px;
+ width: 100%;
+}
+
+
+
+/* Make the image to responsive */
+.image2{
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: pink;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.toppliste:hover .overlay2 {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.nett{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-instagram{
+  background-color:purple;
+  color: white;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content button:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

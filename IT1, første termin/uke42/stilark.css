@@ -1,0 +1,33 @@
+body{
+  background-color: lightgray;
+  color: black;
+  text-decoration-color: white;
+
+}
+h1{
+  color: black;
+
+}
+
+li a{
+
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+}
+li{
+  display: inline;
+}
+video{
+  width: 300px;
+}
+
+img{
+  width: 400px;
+}
+
+table{
+  background-color: white;
+}
