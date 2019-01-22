@@ -1,0 +1,34 @@
+{
+  "kontaker":{
+    "1":{
+      "firstName": "Caroline",
+      "lastName": "Boge",
+      "Født":"12.august 2002",
+      "telephone": 46647400,
+      "adress":"Vendla 80B, 1397 Nesøya",
+      "likerInternett": true,
+      "utdanning":{
+        "videregaaende": ["Sandvika videregående, SSP"]
+      },
+      "Familie":["HC Boge","Monica Solheim","Hansa Boge"],
+      "Interesser":["Seiling","SATA"],
+      "Favoritt mat": ["Sushi","Pizza","Pannekaker"]
+
+    },
+      "2":{
+        "firstName": "Helen",
+        "lastName": "Bugge",
+        "Født":"22.september 2002",
+        "telephone": 99271012,
+        "adress":"Brønnøya 45, 1397 Nesøya",
+        "likerInternett": true,
+        "utdanning":{
+          "videregaaende": ["Sandvika videregående, Helse og oppvekst"]
+          },
+        "Familie":["Hugo Bugge","Porn Bugge","Hallvard Bugge"],
+        "Interesser":"Seiling",
+        "Favoritt mat": ["Sushi","Thailand"]
+      }
+
+  }
+}

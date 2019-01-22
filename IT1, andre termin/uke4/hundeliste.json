@@ -1,0 +1,31 @@
+{
+  "hunder":{
+    "1":{
+      "Name": "Ariel",
+      "Rase": "Maltese",
+      "Farge": "Hvit",
+      "Størrelse": "Liten",
+      "Vekt": "3kg",
+      "Levetid": "15 år"
+
+    },
+      "2":{
+        "Name": "Belle",
+        "Rase": "Corgi",
+        "Farge": "Fawn og hvit",
+        "Størrelse": "Middels",
+        "Vekt": "13kg",
+        "Levetid": "14 år"
+      },
+
+      "3":{
+        "Name": "Ella",
+        "Rase": "Dalmantiner",
+        "Farge": "Hvit, med svarte prikker",
+        "Størrelse": "Stor",
+        "Vekt": "25kg",
+        "Levetid": "14 år"
+      }
+
+  }
+}
