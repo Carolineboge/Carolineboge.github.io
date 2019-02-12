@@ -1,0 +1,60 @@
+{
+  "1": {
+    "svar":"En primærnøkkel er en spesielt utvalgt kandidatnøkkel. Alle relasjoner i en database skal ha en og bare en primærnøkkel. Primærnøkkelen er den foretrukne metoden for å identifisere en rad i en tabell i en relasjonsdatabase."
+  },
+  "2":{
+    "a":{
+      "svar": "Primærnøkler for elever på en skole kan være personsnummer eller klasse og elevnummer."
+    },
+    "b":{
+      "svar": "Primærnøkler for fritidsbåter kan være id nummer."
+    },
+    "c":{
+      "svar": "Primærnøkler for planter "
+    },
+    "d":{
+      "svar": "Primærnøkler for kontaktene dine kan være fullt navn eller mobilnummer."
+    },
+    "e":{
+      "svar": "Primærnøkler for stjerner på himmelen kan være posisjonene deres."
+    }
+  },
+  "3":{
+    "svar": "En kandidatnøkkel er alle alternativene som kan brukes som primærnøkkel"
+  },
+  "4":{
+    "svar": "En fremmednøkkel er det som kobeler forskjellige deler av databasen sammen"
+  },
+  "5":{
+    "svar": "Normalisering er en teknikk for å designe tabeller i relasjonsdatabaser slik at man minimerer duplisering av informasjon. "
+  },
+  "6":{
+    "oppgave": "Lag et objekt med data om brukere av et dataspill. Bruk en fremmednøkkel som viser medlinger fra en av spillerne.",
+    "svar": {
+      "brukere":{
+        "Brukernavn":{
+          "Carolineboge":{
+            "passord":"Passord123",
+            "highScore":5000
+          },
+          "Helenbugge":{
+            "passord": "Passord1234",
+            "highScore":2000
+          }
+        }
+      },
+      "meldinger":{
+        "001":{
+          "tekst": "Hei Helen",
+          "brukernavn":"Carolineboge"
+        },
+
+        "002":{
+          "tekst":"Halla Caroline!",
+          "brukernavn": "Helenbugge"
+        }
+
+      }
+    }
+  }
+}

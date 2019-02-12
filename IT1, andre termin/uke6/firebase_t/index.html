@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kontaktliste</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyClltdK9xgUvt2mLgMMt_REZGCUtrlRCD0",
+        authDomain: "kontakliste-01.firebaseapp.com",
+        databaseURL: "https://kontakliste-01.firebaseio.com",
+        projectId: "kontakliste-01",
+        storageBucket: "",
+        messagingSenderId: "468951897351"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Kontaktliste</h1>
+    </header>
+
+    <main>
+      <form id="skjema">
+        <input type="text" id="inpNavn" placeholder="Navn">
+        <input type="number" id="inpTelefon" placeholder="Telefon">
+        <input type="text" id="inpEpost" placeholder="E-post">
+
+        <button type="submit">Registrer kontakt</button>
+      </form>
+
+      <section id="secKontakter">
+
+      </section>
+    </main>
+
+
+    <script src="./script.js" charset="utf-8"></script>
+  </body>
+</html>
