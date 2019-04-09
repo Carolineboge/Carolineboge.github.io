@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDwA4W9ZRS03xpKr2cbzjirf7zaZEPDYZE",
+        authDomain: "pokemon-c194d.firebaseapp.com",
+        databaseURL: "https://pokemon-c194d.firebaseio.com",
+        projectId: "pokemon-c194d",
+        storageBucket: "pokemon-c194d.appspot.com",
+        messagingSenderId: "928667358723"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <style media="screen">
+      #secPokemon{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        width: 90%;
+        margin: auto;
+      }
+
+      .pokemon{
+        background-color: lightgrey;
+        border-radius: 3px;
+      }
+
+      button{
+        margin-top: auto;
+        background-color: gray;
+        color: blue;
+      }
+
+      #secPokemon img {
+        width: 100%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <button type="button" name="button" onclick="visAllePokemon()">Vis alle pokemon</button>
+      <button type="button" name="button" onclick="vis20SterkestePokemon()">Vis sterkeste</button>
+      <button type="button" name="button" onclick="vis20SvakestePokemon()">Vis svakeste</button>
+    </header>
+
+    <main>
+      <section id="secPokemon">
+
+      </section>
+    </main>
+
+    <script type="text/javascript">
+      //Referanser til HTML-elementer
+      const secAllePokemon = document.querySelector("#secPokemon");
+
+      //Referanser til firebase-databasen
+      const db = firebase.database();
+      const pokemon = db.ref("pokemon");
+
+
+      function visAllePokemon(){
+        secAllePokemon.innerHTML = ``;
+        pokemon.on("child_added",genererHTML);
+      }
+
+      function vis20SterkestePokemon(){
+        secAllePokemon.innerHTML = ``;
+        pokemon.orderByChild("Max CP").limitToLast(20).on("child_added", genererHTML);
+      }
+
+      function vis20SvakestePokemon(){
+        secAllePokemon.innerHTML = ``;
+        pokemon.orderByChild("Max CP").limitToFirst(20).on("child_added", genererHTML);
+      }
+
+
+
+
+      function genererHTML(snapshot){
+         let key = snapshot.key;
+         let poke = snapshot.val();
+         secAllePokemon.innerHTML += `
+           <section class="pokemon">
+             <h3>${key}:${poke["Name"]}</h3>
+             <img src=${poke["Image URL"]}>
+             <p>Type: ${poke["Type 1"]}</p>
+             <p>Max HP: ${poke["Max HP"]}</p>
+             <p>Max CP: ${poke["Max CP"]}</p>
+           </section>
+         `
+       }
+
+    </script>
+  </body>
+</html>

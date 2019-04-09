@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dyrevenn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="kontakt.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDA4t1QFbm0iRNnAgZ2WoMbK-FBaYdqcaw",
+        authDomain: "dyrevenn-6a1e7.firebaseapp.com",
+        databaseURL: "https://dyrevenn-6a1e7.firebaseio.com",
+        projectId: "dyrevenn-6a1e7",
+        storageBucket: "",
+        messagingSenderId: "565421698105"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><h1>DYREVENN</h1>
+      <p>NORGES STØRSTE DYREADOPSJONS FIRMA</p>
+      <img src="bilder/forside/hundespor.gif" alt="" style="width:40px" ></a>
+
+    <div class="navbar">
+
+      <div class="subnav">
+        <button onclick="window.location.href='hunder.html';" class="subnavbtn">HUND <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="raseHund.html">Rase</a>
+          <a href="visAlleValp()">Valp</a>
+          <a href="voksenHund.html">Voksen</a>
+          <a href="litenHund.html">Liten</a>
+          <a href="mediumHund.html">Medium</a>
+          <a href="storHund.html">Stor</a>
+          <a href="allergivennligHund.html">Allergivennlig</a>
+          <a href="kjønnHund.html">Kjønn</a>
+          <a href="prisHund.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='katter.html';" class="subnavbtn">KATT <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="raseKatt.html">Rase</a>
+          <a href="kattunge.html">Kattunge</a>
+          <a href="voksenKatt.html">Voksen</a>
+          <a href="håreteKatt.html">Hårete</a>
+          <a href="ikkeHåreteKatt.html">Ikke hårete</a>
+          <a href="allergivennligKatt.html">Allergivennlig</a>
+          <a href="kjønnKatt.html">Kjønn</a>
+          <a href="prisKatt.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='hester.html';" class="subnavbtn">HEST <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="raseHest.html">Rase</a>
+          <a href="føll.html">Føll</a>
+          <a href="voksenHest.html">Voksen</a>
+          <a href="sprang.html">Sprang</a>
+          <a href="dressur.html">Dressur</a>
+          <a href="allergivennligHest.html">Allergivennlig</a>
+          <a href="kjønnHest.html">Kjønn</a>
+          <a href="prisHest.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='fugler.html';" class="subnavbtn">FUGL <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="raseFugl.html">Rase</a>
+          <a href="ungeFugl.html">Unge</a>
+          <a href="voksenFugl.html">Voksen</a>
+          <a href="litenFugl.html">Liten</a>
+          <a href="storFugl.html">Stor</a>
+          <a href="allergivennligFugl.html">Allergivennlig</a>
+          <a href="kjønnFugl.html">Kjønn</a>
+          <a href="prisFugl.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='kaniner.html';" class="subnavbtn">KANIN <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="raseKanin.html">Rase</a>
+          <a href="ungeKanin.html">Unge</a>
+          <a href="voksenKanin.html">Voksen</a>
+          <a href="håreteKanin.html">Hårete</a>
+          <a href="ikkeHårete.html">Ikke hårete</a>
+          <a href="allergivennligKanin.html">Allergivennlig</a>
+          <a href="kjønnKanin.html">Kjønn</a>
+          <a href="prisKanin.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='gnagere.html';" class="subnavbtn">GNAGERE <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="hamster.html">Hamster</a>
+          <a href="marsvin.html">Marsvin</a>
+          <a href="ungeHM.html">Unge</a>
+          <a href="voksenHM.html">Voksen</a>
+          <a href="håreteHM.html">Hårete</a>
+          <a href="ikkeHM.html">Ikke hårete</a>
+          <a href="allergivennligHM.html">Allergivennlig</a>
+          <a href="kjønnHM.html">Kjønn</a>
+          <a href="prisHM.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='slanger.html';" class="subnavbtn">SLANGE <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="raseSlange.html">Rase</a>
+          <a href="ungeSlange.html">Unge</a>
+          <a href="voksenSlange.html">Voksen</a>
+          <a href="litenSlange.html">Liten</a>
+          <a href="storSlange.html">Stor</a>
+          <a href="giftigSlange.html">Giftig</a>
+          <a href="kjønnSlange.html">Kjønn</a>
+          <a href="prisSlange.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='fisker.html';" class="subnavbtn">FISK <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="prisFisk.html">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='ogler.html';" class="subnavbtn">ØGLE <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="rase.html">Rase</a>
+          <a href="ungeOgle.html">Unge</a>
+          <a href="voksenOgle.html">Voksen</a>
+          <a href="litenOgle.html">Liten</a>
+          <a href="storOgle.html">Stor</a>
+          <a href="giftigOgle.html">Giftig</a>
+          <a href="kjønnOgle.html">Kjønn</a>
+          <a href="prisOgle.html">Pris</a>
+        </div>
+      </div>
+
+      </div>
+
+
+
+    </header>
+
+    <main>
+
+      <a href="kontakt.html"><h2>Kontakt oss</h2></a>
+
+      <div class="container">
+      <form action="action_page.php">
+
+
+        <label for="fname">Fornavn:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Skriv fornavn..">
+
+        <label for="lname">Etternavn:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Skriv etternavn..">
+
+        <label for="lname">E-postadresse:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Skriv e-postadresse..">
+
+        <label for="country">Emne:</label>
+        <select id="country" name="country">
+          <option value="australia">Hund</option>
+          <option value="canada">Katt</option>
+          <option value="usa">Hest</option>
+          <option value="usa">Fugl</option>
+          <option value="usa">Kanin</option>
+          <option value="usa">Hamster</option>
+          <option value="usa">Marsvin</option>
+          <option value="usa">Slange</option>
+          <option value="usa">Fisk</option>
+          <option value="usa">Øgle</option>
+        </select>
+
+        <label for="subject">Beskrivelse:</label>
+        <textarea id="subject" name="subject" placeholder="skriv noe.." style="height:200px"></textarea>
+
+        <a href="index.html"><input type="submit" value="Send inn" ></input></a>
+
+      </form>
+    </div>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+
+  <script>
+
+
+  </script>
+</html>

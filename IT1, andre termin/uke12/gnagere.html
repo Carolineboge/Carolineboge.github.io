@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gnagere</title>
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hunder.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDA4t1QFbm0iRNnAgZ2WoMbK-FBaYdqcaw",
+        authDomain: "dyrevenn-6a1e7.firebaseapp.com",
+        databaseURL: "https://dyrevenn-6a1e7.firebaseio.com",
+        projectId: "dyrevenn-6a1e7",
+        storageBucket: "dyrevenn-6a1e7.appspot.com",
+        messagingSenderId: "565421698105"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+  <body>
+      <header>
+        <a href="index.html"><h1>DYREVENN</h1>
+        <p>NORGES STØRSTE DYREADOPSJONS FIRMA</p>
+        <img src="bilder/forside/hundespor.gif" alt="" style="width:40px" ></a>
+
+        <div class="navbar">
+
+          <div class="subnav">
+            <button onclick="window.location.href='hunder.html?sporring=alle';" class="subnavbtn">HUND <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="hunder.html?sporring=alle">Rase</a>
+              <a href="hunder.html?sporring=valp">Valp</a>
+              <a href="hunder.html?sporring=voksen">Voksen</a>
+              <a href="hunder.html?sporring=liten">Liten</a>
+              <a href="hunder.html?sporring=medium">Medium</a>
+              <a href="hunder.html?sporring=stor">Stor</a>
+              <a href="hunder.html?sporring=allergivennlig">Allergivennlig</a>
+              <a href="hunder.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='katter.html?sporring=alle';" class="subnavbtn">KATT <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="katter.html?sporring=alle">Rase</a>
+              <a href="katter.html?sporring=kattunge">Kattunge</a>
+              <a href="katter.html?sporring=voksen">Voksen</a>
+              <a href="katter.html?sporring=hårete">Hårete</a>
+              <a href="katter.html?sporring=ikkeHårete">Ikke hårete</a>
+              <a href="katter.html?sporring=allergivennlig">Allergivennlig</a>
+              <a href="katter.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='hester.html?sporring=alle';" class="subnavbtn">HEST <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="hester.html?sporring=alle">Rase</a>
+              <a href="hester.html?sporring=føll">Føll</a>
+              <a href="hester.html?sporring=voksen">Voksen</a>
+              <a href="hester.html?sporring=sprang">Sprang</a>
+              <a href="hester.html?sporring=dressur">Dressur</a>
+              <a href="hester.html?sporring=allergivennlig">Allergivennlig</a>
+              <a href="hester.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='fugler.html?sporring=alle';" class="subnavbtn">FUGL <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="fugler.html?sporring=alle">Rase</a>
+              <a href="fugler.html?sporring=unge">Unge</a>
+              <a href="fugler.html?sporring=voksen">Voksen</a>
+              <a href="fugler.html?sporring=liten">Liten</a>
+              <a href="fugler.html?sporring=stor">Stor</a>
+              <a href="fugler.html?sporring=allergivennlig">Allergivennlig</a>
+              <a href="fugler.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='kaniner.html?sporring=alle';" class="subnavbtn">KANIN <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="kaniner.html?sporring=alle">Rase</a>
+              <a href="kaniner.html?sporring=unge">Unge</a>
+              <a href="kaniner.html?sporring=voksen">Voksen</a>
+              <a href="kaniner.html?sporring=hårete">Hårete</a>
+              <a href="kaniner.html?sporring=ikkeHårete">Ikke hårete</a>
+              <a href="kaniner.html?sporring=allergivennlig">Allergivennlig</a>
+              <a href="kaniner.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='gnagere.html?sporring=alle';" class="subnavbtn">GNAGERE <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="gnagere.html?sporring=alle">Rase</a>
+              <a href="gnagere.html?sporring=unge">Unge</a>
+              <a href="gnagere.html?sporring=voksen">Voksen</a>
+              <a href="gnagere.html?sporring=hårete">Hårete</a>
+              <a href="gnagere.html?sporring=ikkeHårete">Ikke hårete</a>
+              <a href="gnagere.html?sporring=allergivennlig">Allergivennlig</a>
+              <a href="gnagere.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='slanger.html?sporring=alle';" class="subnavbtn">SLANGE <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="slanger.html?sporring=alle">Rase</a>
+              <a href="slanger.html?sporring=unge">Unge</a>
+              <a href="slanger.html?sporring=voksen">Voksen</a>
+              <a href="slanger.html?sporring=liten">Liten</a>
+              <a href="slanger.html?sporring=stor">Stor</a>
+              <a href="slanger.html?sporring=giftig">Giftig</a>
+              <a href="slanger.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='fisker.html?sporring=alle';" class="subnavbtn">FISK <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="fisker.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          <div class="subnav">
+            <button onclick="window.location.href='ogler.html?sporring=alle';" class="subnavbtn">ØGLE <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="ogler.html?sporring=alle">Rase</a>
+              <a href="ogler.html?sporring=unge">Unge</a>
+              <a href="ogler.html?sporring=voksen">Voksen</a>
+              <a href="ogler.html?sporring=liten">Liten</a>
+              <a href="ogler.html?sporring=stor">Stor</a>
+              <a href="ogler.html?sporring=giftig">Giftig</a>
+              <a href="ogler.html?sporring=pris">Pris</a>
+            </div>
+          </div>
+
+          </div>
+
+
+        <a href="gnagere.html"> <div class="image-container-gnagere">
+          <div class="text">GNAGERE</div></div></a>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Hamster
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a onclick="visAlleGullhamster()">Gullhamster</a>
+            <a onclick="visAlleKinesisk()">Kinesisk hamster</a>
+            <a onclick="visAlleDverg()">Dverghamster</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Marsvin
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a onclick="visAlleGuine()">Guine</a>
+            <a onclick="visAlleSkinny()">Skinny marsvin</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Kjønn
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a onclick="visAlleJenter()">Jente</a>
+            <a onclick="visAlleGutter()">Gutt</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Pris
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a onclick="visAlleLavPris()">Lav til høy</a>
+            <a onclick="visAlleHøyPris()">Høy til lav</a>
+          </div>
+        </div>
+
+
+        <a onclick="visAlleUnge()">Unge</a>
+        <a onclick="visAlleVoksen()">Voksen</a>
+        <a onclick="visAlleHårete()">Hårete</a>
+        <a onclick="visAlleIkke()">Ikke hårete</a>
+        <a onclick="visAlleAllergivennlig()">Allergivennlig</a>
+      </div>
+
+
+    </header>
+    <br>
+    <main>
+
+      <section id="secAlleGnagere">
+
+      </section>
+
+        <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="bilder/MarsvinHamster/hamster1.png" alt="golden retriver" style="width:100%">
+            <div class="container">
+              <h2>Golden retriver</h2>
+              <p class="title">Jente</p>
+              <p><button  class="button">Mer informasjon</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="bilder/MarsvinHamster/marsvin2.png" alt="" style="width:100%">
+            <div class="container">
+              <h2>Maltese</h2>
+              <p class="title">Jente</p>
+              <p><button onclick="window.location.href='maltese1.html';" class="button">Mer informasjon</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="bilder/MarsvinHamster/hamster3.png" alt="" style="width:100%">
+            <div class="container">
+              <h2>Golden retriver</h2>
+              <p class="title">Jente</p>
+              <p><button class="button">Mer informasjon</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="bilder/MarsvinHamster/marsvin4.png" alt="" style="width:100%">
+            <div class="container">
+              <h2>Corgi</h2>
+              <p class="title">Gutt</p>
+              <p><button class="button">Mer informasjon</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="bilder/MarsvinHamster/marsvin5.png" alt="" style="width:100%">
+            <div class="container">
+              <h2>Bulldog</h2>
+              <p class="title">Gutt</p>
+              <p><button class="button">Mer informasjon</button></p>
+            </div>
+          </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="bilder/MarsvinHamster/hamster6.png" alt="" style="width:100%">
+              <div class="container">
+                <h2>Dalmantiner</h2>
+                <p class="title">Jente</p>
+                <p><button class="button">Mer informasjon</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="bilder/MarsvinHamster/marsvin7.png" alt="" style="width:100%">
+              <div class="container">
+                <h2>Schæfer</h2>
+                <p class="title">Gutt</p>
+                <p><button class="button">Mer informasjon</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="bilder/MarsvinHamster/hamster8.png" alt="" style="width:100%">
+              <div class="container">
+                <h2>Fransk bulldog</h2>
+                <p class="title">Gutt</p>
+                <p><button class="button">Mer informasjon</button></p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </main>
+
+    <script>
+
+      const main = document.querySelector("main");
+
+
+      const db = firebase.database();
+      const Gnagere = db.ref("dyr/Gnagere");
+
+      let url_string = window.location.href;
+      let url = new URL (url_string);
+      let sporring = url.searchParams.get("sporring");
+
+      if(sporring == "alle"){
+        visAlleGnagere();
+      }
+      if(sporring == "unge"){
+        visAlleUnge();
+      }
+      if(sporring == "voksen"){
+        visAlleVoksen();
+      }
+      if(sporring == "hårete"){
+        visAlleHårete();
+      }
+      if(sporring == "ikkeHårete"){
+        visAlleIkke();
+      }
+      if(sporring == "allergivennlig"){
+        visAlleAllergivennlig();
+      }
+      if(sporring == "pris"){
+        visAlleLavPris();
+      }
+      /*visAlleGnagere();*/
+
+
+      function visAlleGnagere(){
+        main.innerHTML = "";
+        Gnagere.on("child_added",genererHTML);
+        //Gnagere.on("child_added", genererHTML);
+      }
+      function visAlleGullhamster(){
+        console.log("visAlleKattunge");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("rase").equalTo("Syrisk-gullhamster").on("child_added", genererHTML);
+      }
+
+      function visAlleKinesisk(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("rase").equalTo("Kinesisk-hamster").on("child_added", genererHTML);
+      }
+
+      function visAlleDverg(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("rase").equalTo("Roporowski-Dverg-Hamster").on("child_added", genererHTML);
+        Gnagere.orderByChild("rase").equalTo("Russisk-dverghamster").on("child_added", genererHTML);
+      }
+
+      function visAlleGuine(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("rase").equalTo("Peruvian-guinea-marsvin").on("child_added", genererHTML);
+        Gnagere.orderByChild("rase").equalTo("Abyssinian-guinea-marsvin").on("child_added", genererHTML);
+        Gnagere.orderByChild("rase").equalTo("Himalayan-guinea-marsvin").on("child_added", genererHTML);
+        Gnagere.orderByChild("rase").equalTo("Amerikansk-guinea-marsvin").on("child_added", genererHTML);
+      }
+
+      function visAlleSkinny(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("rase").equalTo("Skinny-marsvin").on("child_added", genererHTML);
+      }
+
+      function visAlleJenter(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("kjonn").equalTo("Jente").on("child_added", genererHTML);
+      }
+
+      function visAlleGutter(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("kjonn").equalTo("Gutt").on("child_added", genererHTML);
+      }
+
+
+      function visAlleLavPris(){
+        console.log("visAlleGnagere");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("pris").startAt(200).endAt(5000).on("child_added", genererHTML);
+      }
+
+      function visAlleHøyPris(){
+        console.log("visAlleGnagere");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("pris").limitToFirst(9).on("child_added", genererHTML);
+      }
+
+
+      function visAlleUnge(){
+        console.log("visAlleUnge");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("alder").equalTo("Unge").on("child_added", genererHTML);
+      }
+
+      function visAlleVoksen(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("alder").equalTo("Voksen").on("child_added", genererHTML);
+      }
+
+      function visAlleHårete(){
+        console.log("visAlleHårete");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("pels").equalTo("hårete").on("child_added", genererHTML);
+      }
+
+      function visAlleIkke(){
+        console.log("visAlle");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("pels").equalTo("ikke-hårete").on("child_added", genererHTML);
+      }
+
+
+      function visAlleAllergivennlig(){
+        console.log("visAlleValp");
+        main.innerHTML = ``;
+        Gnagere.orderByChild("allergivennlig").equalTo("true").on("child_added", genererHTML);
+      }
+
+      function visGoldenRetriver1(){
+        main.innerHTML = ``;
+        Gnagere.orderByChild("rase").equalTo("Golden retriver").on("child_added", genererHTML);
+
+
+
+
+
+      }
+/*
+      function genererHTML(snapshot){
+        let key = snapshot.key;
+        let objekt = snapshot.val();
+
+
+        main.innerHTML +=`
+            <article class="Dyr">
+              <img src="bilder/hund/${objekt.bilde}" alt="">
+              <h3>${objekt.rase}</h3>
+              <p class="title"> ${objekt.kjonn}</p>
+              <p onclick="visGoldenRetriver1()"><button class= dyr class="button">Kontakt oss</button></p>
+            </article>
+        `;
+      }
+*/
+      function genererHTML(snapshot){
+        let key = snapshot.key;
+        let objekt = snapshot.val();
+
+
+        main.innerHTML +=`
+            <article class="Gnagere">
+              <img src="bilder/MarsvinHamster/${objekt.bilde}" alt="">
+              <h3>${objekt.rase}</h3>
+              <p class="title"> ${objekt.kjonn}</p>
+              <a onclick=href='dyr.html?id=${key}'><button class="button">Mer informasjon</button></a>
+            </article>
+        `;
+      }
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TEST</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDA4t1QFbm0iRNnAgZ2WoMbK-FBaYdqcaw",
+        authDomain: "dyrevenn-6a1e7.firebaseapp.com",
+        databaseURL: "https://dyrevenn-6a1e7.firebaseio.com",
+        projectId: "dyrevenn-6a1e7",
+        storageBucket: "dyrevenn-6a1e7.appspot.com",
+        messagingSenderId: "565421698105"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+        <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- The navigation menu -->
+    <div class="navbar">
+
+      <div class="subnav">
+        <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#company">Company</a>
+          <a href="#team">Team</a>
+          <a href="#careers">Careers</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#bring">Bring</a>
+          <a href="#deliver">Deliver</a>
+          <a href="#package">Package</a>
+          <a href="#express">Express</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#link1">Link 1</a>
+          <a href="#link2">Link 2</a>
+          <a href="#link3">Link 3</a>
+          <a href="#link4">Link 4</a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <header>
+      <div class="image-container">
+        <div class="text">HUNDER</div>
+      </div>
+      <div class="topnav">
+
+        <div class="nav">
+          <button class="navbtn">Rase <i class="fa fa-caret-down"></i></button>
+          <div class="nav-content">
+            <a href="raseHund.html">Rase</a>
+            <a href="valp.html">Valp</a>
+            <a href="voksenHund.html">Voksen</a>
+            <a href="litenHund.html">Liten</a>
+            <a href="mediumHund.html">Medium</a>
+            <a href="storHund.html">Stor</a>
+            <a href="allergivennligHund.html">Allergivennlig</a>
+            <a href="kjønnHund.html">Kjønn</a>
+            <a href="prisHund.html">Pris</a>
+          </div>
+        </div>
+
+        <div class="nav">
+          <button class="navbtn">Kjønn <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#jente">Jente</a>
+            <a href="#gutt">Gutt</a>
+          </div>
+        </div>
+
+        <div class="nav">
+          <button class="navbtn">Pris <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#">Lav til høy</a>
+            <a href="#">Høy til lav</a>
+          </div>
+        </div>
+
+        <div class="nav">
+          <a onclick="visAlleValp()">Valp</a>
+        </div>
+
+        <div class="nav">
+          <a href="#voksen">Voksen</a>
+
+        </div>
+
+        <div class="nav">
+          <a href="#liten">Liten</a>
+        </div>
+
+        <div class="nav">
+          <a href="#medium">Medium</a>
+        </div>
+
+        <div class="nav">
+          <a href="#stor">Stor</a>
+        </div>
+
+        <div class="nav">
+          <a href="#allergivennlig">Allergivennlig</a>
+        </div>
+
+
+        </div>
+    </header>
+
+    <main>
+
+      <section id="secAlleHunder">
+
+      </section>
+
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="bilder/hund/hund1.png" alt="golden retriver" style="width:100%">
+          <div class="container">
+            <h2>Golden retriver</h2>
+            <p class="title">Jente</p>
+            <p><button class="button">Mer informasjon</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="bilder/hund/hund2.png" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Maltese</h2>
+            <p class="title">Jente</p>
+            <p><button class="button">Mer informasjon</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="bilder/hund/hund3.png" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Golden retriver</h2>
+            <p class="title">Jente</p>
+            <p><button class="button">Mer informasjon</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="bilder/hund/hund4.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Corgi</h2>
+            <p class="title">Gutt</p>
+            <p><button class="button">Mer informasjon</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </main>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon</title>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDwA4W9ZRS03xpKr2cbzjirf7zaZEPDYZE",
+        authDomain: "pokemon-c194d.firebaseapp.com",
+        databaseURL: "https://pokemon-c194d.firebaseio.com",
+        projectId: "pokemon-c194d",
+        storageBucket: "pokemon-c194d.appspot.com",
+        messagingSenderId: "928667358723"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <button type="button" name="button" onclick="visSterkeste()">Sterkeste Pokemon</button>
+      <button type="button" name="button" onclick="visNummer()">Nummer</button>
+      <button type="button" name="button"onclick="visSvakeste()">Svakeste Pokemon</button>
+    </header>
+    <main>
+      <section id="secAllePokemon">
+        <p>Laster inn pokemon...</p>
+      </section>
+    </main>
+
+    <script type="text/javascript">
+      const db =firebase.database();
+      const pokemon = db.ref("pokemon");
+
+      const secAllePokemon = document.querySelector("#secAllePokemon");
+
+      function visPokemon(snapshot){
+        let key = snapshot.key;
+        let poke = snapshot.val();
+        secAllePokemon.innerHTML += `
+          <section class="pokemon">
+            <h3>${key}:${poke.Name}</h3>
+            <img src="${poke["Image URL"]}">
+            <p>Type: ${poke["Type 1"]}</p>
+            <p> Max HP: ${poke["Max HP"]}</p>
+            <p>Max CP: ${poke["Max CP"]}</p>
+          </section>
+        `
+      }
+
+      /*pokemon
+        .orderByChild("Max HP")
+        .limitToLast(5)
+        .on("child_added",visPokemon);
+      */
+
+        function visSterkeste(){
+          secAllePokemon.innerHTML = ``;
+          pokemon
+            .orderByChild("Max CP")
+            .limitToLast(20)
+            .on("child_added", visPokemon);
+        }
+
+        function visSvakeste(){
+          secAllePokemon.innerHTML = ``;
+          pokemon
+            .orderByChild("Max CP")
+            .limitToFirst(20)
+            .on("child_added", visPokemon);
+        }
+
+        function visNummer(){
+          secAllePokemon.innerHTML = ``;
+          pokemon
+            .orderByKey()
+            .limitToFirst(20)
+            .on("child_added", visPokemon);
+        }
+    </script>
+  </body>
+</html>

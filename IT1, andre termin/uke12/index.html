@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dyrevenn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDA4t1QFbm0iRNnAgZ2WoMbK-FBaYdqcaw",
+        authDomain: "dyrevenn-6a1e7.firebaseapp.com",
+        databaseURL: "https://dyrevenn-6a1e7.firebaseio.com",
+        projectId: "dyrevenn-6a1e7",
+        storageBucket: "",
+        messagingSenderId: "565421698105"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><h1>DYREVENN</h1>
+      <p>NORGES STØRSTE DYREADOPSJONS FIRMA</p>
+      <img src="bilder/forside/hundespor.gif" alt="" style="width:40px" ></a>
+
+    <div class="navbar">
+
+      <div class="subnav">
+        <button onclick="window.location.href='hunder.html?sporring=alle';" class="subnavbtn">HUND <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="hunder.html?sporring=alle">Rase</a>
+          <a href="hunder.html?sporring=valp">Valp</a>
+          <a href="hunder.html?sporring=voksen">Voksen</a>
+          <a href="hunder.html?sporring=liten">Liten</a>
+          <a href="hunder.html?sporring=medium">Medium</a>
+          <a href="hunder.html?sporring=stor">Stor</a>
+          <a href="hunder.html?sporring=allergivennlig">Allergivennlig</a>
+          <a href="hunder.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='katter.html?sporring=alle';" class="subnavbtn">KATT <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="katter.html?sporring=alle">Rase</a>
+          <a href="katter.html?sporring=kattunge">Kattunge</a>
+          <a href="katter.html?sporring=voksen">Voksen</a>
+          <a href="katter.html?sporring=hårete">Hårete</a>
+          <a href="katter.html?sporring=ikkeHårete">Ikke hårete</a>
+          <a href="katter.html?sporring=allergivennlig">Allergivennlig</a>
+          <a href="katter.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='hester.html?sporring=alle';" class="subnavbtn">HEST <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="hester.html?sporring=alle">Rase</a>
+          <a href="hester.html?sporring=føll">Føll</a>
+          <a href="hester.html?sporring=voksen">Voksen</a>
+          <a href="hester.html?sporring=sprang">Sprang</a>
+          <a href="hester.html?sporring=dressur">Dressur</a>
+          <a href="hester.html?sporring=allergivennlig">Allergivennlig</a>
+          <a href="hester.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='fugler.html?sporring=alle';" class="subnavbtn">FUGL <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="fugler.html?sporring=alle">Rase</a>
+          <a href="fugler.html?sporring=unge">Unge</a>
+          <a href="fugler.html?sporring=voksen">Voksen</a>
+          <a href="fugler.html?sporring=liten">Liten</a>
+          <a href="fugler.html?sporring=stor">Stor</a>
+          <a href="fugler.html?sporring=allergivennlig">Allergivennlig</a>
+          <a href="fugler.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='kaniner.html?sporring=alle';" class="subnavbtn">KANIN <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="kaniner.html?sporring=alle">Rase</a>
+          <a href="kaniner.html?sporring=unge">Unge</a>
+          <a href="kaniner.html?sporring=voksen">Voksen</a>
+          <a href="kaniner.html?sporring=hårete">Hårete</a>
+          <a href="kaniner.html?sporring=ikkeHårete">Ikke hårete</a>
+          <a href="kaniner.html?sporring=allergivennlig">Allergivennlig</a>
+          <a href="kaniner.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='gnagere.html?sporring=alle';" class="subnavbtn">GNAGERE <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="gnagere.html?sporring=alle">Rase</a>
+          <a href="gnagere.html?sporring=unge">Unge</a>
+          <a href="gnagere.html?sporring=voksen">Voksen</a>
+          <a href="gnagere.html?sporring=hårete">Hårete</a>
+          <a href="gnagere.html?sporring=ikkeHårete">Ikke hårete</a>
+          <a href="gnagere.html?sporring=allergivennlig">Allergivennlig</a>
+          <a href="gnagere.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='slanger.html?sporring=alle';" class="subnavbtn">SLANGE <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="slanger.html?sporring=alle">Rase</a>
+          <a href="slanger.html?sporring=unge">Unge</a>
+          <a href="slanger.html?sporring=voksen">Voksen</a>
+          <a href="slanger.html?sporring=liten">Liten</a>
+          <a href="slanger.html?sporring=stor">Stor</a>
+          <a href="slanger.html?sporring=giftig">Giftig</a>
+          <a href="slanger.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='fisker.html?sporring=alle';" class="subnavbtn">FISK <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="fisker.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button onclick="window.location.href='ogler.html?sporring=alle';" class="subnavbtn">ØGLE <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="ogler.html?sporring=alle">Rase</a>
+          <a href="ogler.html?sporring=unge">Unge</a>
+          <a href="ogler.html?sporring=voksen">Voksen</a>
+          <a href="ogler.html?sporring=liten">Liten</a>
+          <a href="ogler.html?sporring=stor">Stor</a>
+          <a href="ogler.html?sporring=giftig">Giftig</a>
+          <a href="ogler.html?sporring=pris">Pris</a>
+        </div>
+      </div>
+
+      </div>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="bilder/forside/sover.jpg" >
+      </div>
+
+      <div class="mySlides fade">
+        <img src="bilder/forside/hest.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="bilder/forside/papa.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="bilder/forside/gnager.png">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="bilder/forside/fisk.png">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+    </header>
+
+    <main>
+
+      <p>Adopsjonsdyr</p>
+      <div class="grid-container">
+          <div class="card">
+            <h2>Hunder</h2>
+            <a href="hunder.html">
+            <img src="bilder/forside/hund.png" alt="hund" style="width:100%"></a>
+          </div>
+
+
+          <div class="card">
+            <h2>Katter</h2>
+            <a href="katter.html">
+            <img src="bilder/forside/katt.png" alt="katt" style="width:100%"></a>
+          </div>
+
+
+
+              <div class="card">
+              <h2>Hester</h2>
+              <a href="hester.html">
+              <img src="bilder/forside/hester.png" alt="hest" style="width:100%"></a>
+            </div>
+
+
+
+
+
+            <div class="card">
+              <h2>Fugler</h2>
+              <a href="fugler.html">
+              <img src="bilder/forside/papegøye.jpg" alt="fugl" style="width:100%"></a>
+            </div>
+
+
+
+              <div class="card">
+                <h2>Kaniner</h2>
+                <a href="kaniner.html">
+                <img src="bilder/forside/kanin.png" alt="kanin" style="width:100%"></a>
+              </div>
+
+
+
+              <div class="card">
+                <h2>Gnagere</h2>
+                <a href="gnagere.html">
+                <img src="bilder/forside/hamster.png" alt="hamster/marsvin" style="width:100%"></a>
+              </div>
+
+
+            <div class="card">
+              <h2>Slanger</h2>
+              <a href="slanger.html">
+              <img src="bilder/forside/slanger.png" alt="slange" style="width:100%"></a>
+            </div>
+
+
+
+              <div class="card">
+                <h2>Fisker</h2>
+                <a href="fisker.html">
+                <img src="bilder/forside/fisker.png" alt="fisk" style="width:100%"></a>
+              </div>
+
+
+
+              <div class="card">
+                  <h2>Øgle</h2>
+                  <a href="ogler.html">
+                  <img src="bilder/forside/øgle.png" alt="øgle" style="width:100%"></a>
+              </div>
+          </div>
+
+
+    </main>
+<br>
+    <footer>
+    <div class="footer">
+
+      <div class="foot">
+        <a href="index.html"><h1>DYREVENN</h1>
+        <p>NORGES STØRSTE DYREADOPSJONS FIRMA</p></a>
+      <div class="inf">
+        <p>Dyrevenn ønsker å gi alle våre dyr et bra hjem. Vi passer på at dyrene er <br>
+          sunne og sosiale med både mennesker og andre dyr. Du er velkommen til å <br>
+          kontakte vår kundeservice om det skulle være noe. Kundeservice har åpent hver dag.</p>
+        </div>
+      </div>
+
+
+        <div class="foot">
+          <h2>Kundeservice</h2>
+        <div class="inf">
+          <a href="kontakt.html"><p>Kontakt oss</p></a>
+          <a href=""><p>Om oss</p></a>
+
+          <h2>Hold deg oppdatert</h2>
+          <a href="https://www.facebook.com/groups/hundegruppahpf/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/hunde/" class="fa fa-instagram"></a>
+
+        </div>
+
+
+
+      </div>
+
+    </footer>
+  </body>
+
+  <script>
+
+
+  </script>
+</html>

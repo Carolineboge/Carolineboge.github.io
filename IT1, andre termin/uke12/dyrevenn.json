@@ -1,0 +1,741 @@
+{
+  "dyr" : {
+    "Hunder" : {
+      "H001" : {
+        "rase" : "Golden retriver",
+        "bilde" : "hund1.png",
+        "pris" : 17000,
+        "alder" : "Valp",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse": "<p>Golden retriver er en svært vennlig og tillitsfull rase, med god selvtillit. Golden retrievere er en fleksibel rase som ofte blir brukt til apportering, viltspor, lydighet og bruksarbeid, samtidig som den også kan være en utmerket selskapshund i aktive familier. Rasen er intelligent, vennlig, tillitsfull og normalt flink med barn. Tispene har en mankehøyde på 51-56 cm. Pelsen er glatt eller bølget med gode faner. Tett vannavstøtende underpels. Alle nyanser av gylden eller kremfarget, ikke rød eller mahogni. Noen få hvite hår i brystet tillatt.</p>"
+      },
+      "H002" : {
+        "rase" : "Maltese",
+        "bilde" : "hund2.png",
+        "pris" : 6000,
+        "alder" : "Voksen",
+        "storrelse" : "Liten",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente",
+        "beskrivelse": "<p>Maltese er en utpreget selskapshund. Malteseren er en glad hund, og glad i folk, men må også sosialiseres, og også lære seg grenser, det er fort gjort å skjemme de bort, når de er små og søte. Men lær de hva de har lov til å ikke lov til, så fort de skjønner hva du mener. Malteseren er en klok rase så de lærer ting fort. Malteseren er livlig, hengiven, meget rolig og intelligent. Den er en flott selskapshund, og er en utmerket familiehund, pelsen er ingen hindring,da de fleste velger å klippe den kort. Den er liten med langstrakt kropp med en meget lang, hvit pels. Meget elegant med stolt og fornem hodeholdning. Mankehøyde: Tisper:20-23 cm. Vekt: 3-4 kilo.</p>"
+      },
+      "H003" : {
+        "rase" : "Golden retriver",
+        "bilde" : "hund3.png",
+        "pris" : 9000,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse": "<p>Golden retriver er en svært vennlig og tillitsfull rase, med god selvtillit. Golden retrievere er en fleksibel rase som ofte blir brukt til apportering, viltspor, lydighet og bruksarbeid, samtidig som den også kan være en utmerket selskapshund i aktive familier. Rasen er intelligent, vennlig, tillitsfull og normalt flink med barn. Tispene har en mankehøyde på 51-56 cm. Pelsen er glatt eller bølget med gode faner. Tett vannavstøtende underpels. Alle nyanser av gylden eller kremfarget, ikke rød eller mahogni. Noen få hvite hår i brystet tillatt.</p>"
+      },
+      "H004" : {
+        "rase" : "Corgi",
+        "bilde" : "hund4.jpg",
+        "pris" : 2000,
+        "alder" : "Valp",
+        "storrelse" : "Medium",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse": "<p>Corgien er våken, aktiv, intelligent og stabil. Den skal ikke være sky eller aggressiv.En corgi kan være en fabelaktig familiehund. Husk bare på at de er smarte, sjefete og har høy intelligens, sterk rettferdighetssans og kan til og med ha sans for humor. Rasen er lettlært, på godt og vondt.Corgien er i dag en allsidig hund. Du finner den i lydighets- utstillings- og agilityringen, den gjeter kuer og hva annet som måtte komme i dens veg, den er effektiv på spor, men har heller ikke noe problem med å være en ekte sofagris. Corgien er en av de minste gjeterhundrasene. Pelsen er kort eller middels lang med hard struktur. Værbestandig, med god underpels. Helst rett. Mankehøyde: Ideal 30 cm. </p>"
+      },
+      "H005" : {
+        "rase" : "Bulldog",
+        "bilde" : "hund5.png",
+        "pris" : 16000,
+        "alder" : "Valp",
+        "storrelse" : "Medium",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse": "<p>Bulldog er en aktiv, lojal og modig hunderase, og et flott familemedlem. Til tross for det sure uttrykket har  bulldog et meget vennlig vesen. De er også meget hengivne, men kan være veldig sta. De elsker å være midtpunktet og klovner gjerne. Bulldogen krever klart lederskap, og en bulldogeier bør ha god kontroll på hundeoppdragelsens grunnprinsipper. Engelsk bulldog står på listen over raser som observeres med hensyn til til risiko for overdrevne eksteriørtrekk. Denne sier at rasens ekstreme konstruksjon, med bl.a. forkortet skalle og underutviklet neserygg, gjør at ytterligere overdrivelser medfører alvorlige helseproblemer.  Kroppsvekt er nært knyttet til helseproblemer hos rasen. Bulldog er lavstilt, bred og kompakt. Standarden beskriver en kropp uten tendens til fedme. Standarden for engelsk bulldog foreskriver en vekt på 25 kilo for hanner.</p>"
+      },
+      "H006" : {
+        "rase" : "Dalmantiner",
+        "bilde" : "hund6.png",
+        "pris" : 15000,
+        "alder" : "Valp",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse": "<p>Dalmantiner krever betydelig mosjon for å trives. Rasen er lettlært og allsidig, men er i dag ingen utpreget brukshund. Få raser har flere bruksområder. Dalmatineren har vært brukt til jakt, trekk, kløving, krigstjeneste og de senere år her i Norge til førerhund for blinde, lavinehund, ettersøkshund for mennesker og for vilt, og narkotika/politihund. Dalmatineren er velbalansert, tydelig flekket, sterk, muskuløs og livlig hund. Rasen er velproporsjonert, ikke grov eller tung. Den skal kunne bevege seg raskt med stor utholdenhet. Grunnfargen er ren hvit. Dypt sorte flekker hos sortflekkete hunder, leverbrune hos brunflekkete. Flekkene skal ikke flyte sammen, men være runde, klart avgrensede og godt fordelt. De skal være 2 - 3 cm i diameter, men mindre på hodet, halen og lemmene. Tegningene på ørene godt oppbrutt, foretrekkes godt flekket.</p>"
+      },
+      "H007" : {
+        "rase" : "Schæfer",
+        "bilde" : "hund7.png",
+        "pris" : 8000,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse": "<p>Schæfer er en meget allsidig brukshund, og er derfor populær innenfor politiet, militæret, ettersøk og brukshundsport. Rasen er nervefast, selvsikker, avbalansert, unntatt når provosert, frimodig, oppmerksom og lærenem. Schæfer er en stor og relativt kraftig hunderase med mankehøyde på 60-65 cm for hannhundene, og 55-60 cm for tispene. Vanlig vekt for rasen er mellom 30-40 kg for hannhunder. Rasen finnes i to pelsvarianter, korthåret og langhåret. Begge variantene har tett underull. Rasen finnes i fargene sort med rødbrune, brune, gule til lysegrå tegninger, ensfarget sort og ensfarget grå.</p>"
+      },
+      "H008" : {
+        "rase" : "Fransk Bulldog",
+        "bilde" : "hund8.png",
+        "pris" : 17000,
+        "alder" : "valp",
+        "storrelse" : "Liten",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse": "<p>Fransk bulldog er en liten og livlig hund som egner seg godt som selskapshund. Den er selskapelig, leken, sporty, ivrig. Spesielt hengiven overfor sin familie. Typisk molosser i liten størrelse. Kraftfull i forhold til sin lille størrelse, kort og kompakt i alle proporsjoner, glatthåret, kort ansikt med tilbakelagt snuteparti, opprettstående ører, naturlig kort hale. Utseende gir inntrykk av en aktiv, intelligent, meget muskuløs hund, med kompakt helhet og en solid benbygning. Ikke under 8 kg eller over 14 kg for en hund i god kondisjon. Høyde og vekt skal harmonere.</p>"
+      },
+      "H009" : {
+        "rase" : "Corgi",
+        "bilde" : "hund9.png",
+        "pris" : 5000,
+        "alder" : "Voksen",
+        "storrelse" : "Medium",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse": "<p>Corgien er våken, aktiv, intelligent og stabil. Den skal ikke være sky eller aggressiv.En corgi kan være en fabelaktig familiehund. Husk bare på at de er smarte, sjefete og har høy intelligens, sterk rettferdighetssans og kan til og med ha sans for humor. Rasen er lettlært, på godt og vondt.Corgien er i dag en allsidig hund. Du finner den i lydighets- utstillings- og agilityringen, den gjeter kuer og hva annet som måtte komme i dens veg, den er effektiv på spor, men har heller ikke noe problem med å være en ekte sofagris. Corgien er en av de minste gjeterhundrasene. Pelsen er kort eller middels lang med hard struktur. Værbestandig, med god underpels. Helst rett. Mankehøyde: Ideal 30 cm. </p>"
+      },
+      "H010" : {
+        "rase" : "Maltese",
+        "bilde" : "hund10.png",
+        "pris" : 15000,
+        "alder" : "Valp",
+        "storrelse" : "Liten",
+        "allergivennlig" : "true",
+        "kjonn" : "Gutt",
+        "beskrivelse": "<p>Maltese er en utpreget selskapshund. Malteseren er en glad hund, og glad i folk, men må også sosialiseres, og også lære seg grenser, det er fort gjort å skjemme de bort, når de er små og søte. Men lær de hva de har lov til å ikke lov til, så fort de skjønner hva du mener. Malteseren er en klok rase så de lærer ting fort. Malteseren er livlig, hengiven, meget rolig og intelligent. Den er en flott selskapshund, og er en utmerket familiehund, pelsen er ingen hindring, da de fleste velger å klippe den kort. Den er liten med langstrakt kropp med en meget lang, hvit pels. Meget elegant med stolt og fornem hodeholdning. Mankehøyde: Hannhunder: 21 - 25 cm.</p>"
+      },
+      "H011" : {
+        "rase" : "Schæfer",
+        "bilde" : "hund11.png",
+        "pris" : 13000,
+        "alder" : "Valp",
+        "storrelse" : "Stor",
+        "allergivennlig" : "False",
+        "kjonn" : "Gutt",
+        "beskrivelse": "<p>Schæfer er en meget allsidig brukshund, og er derfor populær innenfor politiet, militæret, ettersøk og brukshundsport. Rasen er nervefast, selvsikker, avbalansert, unntatt når provosert, frimodig, oppmerksom og lærenem. Schæfer er en stor og relativt kraftig hunderase med mankehøyde på 60-65 cm for hannhundene, og 55-60 cm for tispene. Vanlig vekt for rasen er mellom 30-40 kg for hannhunder. Rasen finnes i to pelsvarianter, korthåret og langhåret. Begge variantene har tett underull. Rasen finnes i fargene sort med rødbrune, brune, gule til lysegrå tegninger, ensfarget sort og ensfarget grå.</p>"
+      },
+      "H012" : {
+        "rase" : "Dalmantiner",
+        "bilde" : "hund12.png",
+        "pris" : 7000,
+        "alder" : "Valp",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse": "<p>Dalmantiner krever betydelig mosjon for å trives. Rasen er lettlært og allsidig, men er i dag ingen utpreget brukshund. Få raser har flere bruksområder. Dalmatineren har vært brukt til jakt, trekk, kløving, krigstjeneste og de senere år her i Norge til førerhund for blinde, lavinehund, ettersøkshund for mennesker og for vilt, og narkotika/politihund. Dalmatineren er velbalansert, tydelig flekket, sterk, muskuløs og livlig hund. Rasen er velproporsjonert, ikke grov eller tung. Den skal kunne bevege seg raskt med stor utholdenhet. Grunnfargen er ren hvit. Dypt sorte flekker hos sortflekkete hunder, leverbrune hos brunflekkete. Flekkene skal ikke flyte sammen, men være runde, klart avgrensede og godt fordelt. De skal være 2 - 3 cm i diameter, men mindre på hodet, halen og lemmene. Tegningene på ørene godt oppbrutt, foretrekkes godt flekket.</p>"
+      }
+    },
+    "Katter" : {
+      "K001" : {
+        "rase" : "Perser",
+        "bilde" : "katt1.png",
+        "pris" : 8000,
+        "alder" : "Kattunge",
+        "pels" : "Hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "K002" : {
+        "rase" : "Perser",
+        "bilde" : "katt2.png",
+        "pris" : 1500,
+        "alder" : "Voksen",
+        "pels" : "Hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "K003" : {
+        "rase" : "Ragdoll",
+        "bilde" : "katt3.png",
+        "pris" : 5000,
+        "alder" : "Kattunge",
+        "pels" : "Hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "K004" : {
+        "rase" : "Siameser",
+        "bilde" : "katt4.png",
+        "pris" : 9000,
+        "alder" : "Kattunge",
+        "pels" : "Ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "K005" : {
+        "rase" : "Siameser",
+        "bilde" : "katt5.png",
+        "pris" : 3500,
+        "alder" : "Voksen",
+        "pels" : "Ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "K006" : {
+        "rase" : "Spynx",
+        "bilde" : "katt6.png",
+        "pris" : 7000,
+        "alder" : "Voksen",
+        "pels" : "Ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "K007" : {
+        "rase" : "Ragdoll",
+        "bilde" : "katt7.png",
+        "pris" : 2000,
+        "alder" : "Voksen",
+        "pels" : "Hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "K008" : {
+        "rase" : "Ragdoll",
+        "bilde" : "katt8.png",
+        "pris" : 7000,
+        "alder" : "Kattunge",
+        "pels" : "Hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      }
+    },
+    "Hester" : {
+      "H01" : {
+        "rase" : "Leopard-appaloosa",
+        "bilde" : "hest1.png",
+        "pris" : 40400,
+        "alder" : "Foll",
+        "type" : "Dressur",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "H02" : {
+        "rase" : "Buckskin",
+        "bilde" : "hest2.png",
+        "pris" : 50000,
+        "alder" : "Voksen",
+        "type" : "Sprang",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "H03" : {
+        "rase" : "Svart/hvit-Pinto",
+        "bilde" : "hest3.png",
+        "pris" : 30000,
+        "alder" : "Foll",
+        "type" : "Sprang",
+        "allergivennlig" : "true",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "H04" : {
+        "rase" : "Buckskin-Pinto",
+        "bilde" : "hest4.png",
+        "pris" : 20500,
+        "alder" : "Voksen",
+        "type" : "Sprang",
+        "allergivennlig" : "true",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "H05" : {
+        "rase" : "Solvbrun-Islandshest",
+        "bilde" : "hest5.png",
+        "pris" : 15000,
+        "alder" : "Voksen",
+        "type" : "Dressur",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "H06" : {
+        "rase" : "Sjokolade-Flaxen",
+        "bilde" : "hest6.png",
+        "pris" : 40000,
+        "alder" : "Foll",
+        "type" : "Dressur",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      }
+    },
+    "Fugler" : {
+      "F001" : {
+        "rase" : "Undulat",
+        "bilde" : "fugl1.png",
+        "pris" : 200,
+        "alder" : "Voksen",
+        "storrelse" : "Liten",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "F002" : {
+        "rase" : "Papegoye",
+        "bilde" : "fugl2.png",
+        "pris" : 3000,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "F003" : {
+        "rase" : "Ugle",
+        "bilde" : "fugl3.png",
+        "pris" : 500,
+        "alder" : "Unge",
+        "storrelse" : "Stor",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "F004" : {
+        "rase" : "Perlekonure",
+        "bilde" : "fugl4.png",
+        "pris" : 300,
+        "alder" : "Unge",
+        "storrelse" : "Liten",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "F005" : {
+        "rase" : "Kakadoo",
+        "bilde" : "fugl5.png",
+        "pris" : 5000,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "F006" : {
+        "rase" : "Undulat",
+        "bilde" : "fugl6.png",
+        "pris" : 300,
+        "alder" : "Unge",
+        "storrelse" : "Liten",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt",
+        "beskrivelse" : "<p></p>"
+      },
+      "F007" : {
+        "rase" : "Papegoye",
+        "bilde" : "fugl7.png",
+        "pris" : 2500,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      },
+      "F008" : {
+        "rase" : "Ugle",
+        "bilde" : "fugl8.png",
+        "pris" : 250,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente",
+        "beskrivelse" : "<p></p>"
+      }
+    },
+    "Kaniner" : {
+      "K01" : {
+        "rase" : "Lionhead",
+        "bilde" : "kanin1.png",
+        "pris" : 300,
+        "alder" : "Unge",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente"
+      },
+      "K02" : {
+        "rase" : "Mini-rex",
+        "bilde" : "kanin2.png",
+        "pris" : 500,
+        "alder" : "Unge",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "K03" : {
+        "rase" : "Alaska-kanin",
+        "bilde" : "kanin3.png",
+        "pris" : 300,
+        "alder" : "Unge",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente"
+      },
+      "K04" : {
+        "rase" : "Europeisk-kanin",
+        "bilde" : "kanin4.png",
+        "pris" : 100,
+        "alder" : "Voksen",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente"
+      },
+      "K05" : {
+        "rase" : "Tysk-kanin",
+        "bilde" : "kanin5.png",
+        "pris" : 150,
+        "alder" : "Voksen",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente"
+      },
+      "K06" : {
+        "rase" : "Lionhead",
+        "bilde" : "kanin6.png",
+        "pris" : 600,
+        "alder" : "unge",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "K07" : {
+        "rase" : "Hyplus",
+        "bilde" : "kanin7.png",
+        "pris" : 350,
+        "alder" : "unge",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "K08" : {
+        "rase" : "Alaska-kanin",
+        "bilde" : "kanin8.png",
+        "pris" : 400,
+        "alder" : "unge",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente"
+      }
+    },
+    "Gnagere" : {
+      "G001" : {
+        "rase" : "Syrisk-gullhamster",
+        "bilde" : "hamster1.png",
+        "pris" : 100,
+        "alder" : "Voksen",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "G002" : {
+        "rase" : "Peruvian-guinea-marsvin",
+        "bilde" : "marsvin2.png",
+        "pris" : 200,
+        "alder" : "Voksen",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente"
+      },
+      "G003" : {
+        "rase" : "Kinesisk-hamster",
+        "bilde" : "hamster3.png",
+        "pris" :200,
+        "alder" : "unge",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente"
+      },
+      "G004" : {
+        "rase" : "Abyssinian-guinea-marsvin",
+        "bilde" : "marsvin4.png",
+        "pris" : 300,
+        "alder" : "Voksen",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "G005" : {
+        "rase" : "Skinny-marsvin",
+        "bilde" : "marsvin5.png",
+        "pris" : 350,
+        "alder" : "Voksen",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente"
+      },
+      "G006" : {
+        "rase" : "Roporowski-Dverg-Hamster",
+        "bilde" : "hamster6.png",
+        "pris" : 150,
+        "alder" : "Unge",
+        "pels" : "ikke-hårete",
+        "allergivennlig" : "true",
+        "kjonn" : "Jente"
+      },
+      "G007" : {
+        "rase" : "Himalayan-guinea-marsvin",
+        "bilde" : "marsvin7.png",
+        "pris" : 500,
+        "alder" : "unge",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "G008" : {
+        "rase" : "Russisk-dverghamster",
+        "bilde" : "hamster8.png",
+        "pris" : 125,
+        "alder" : "unge",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente"
+      },
+      "G009" : {
+        "rase" : "Amerikansk-guinea-marsvin",
+        "bilde" : "marsvin9.png",
+        "pris" :400,
+        "alder" : "Voksen",
+        "pels" : "hårete",
+        "allergivennlig" : "false",
+        "kjonn" : "Jente"
+      }
+    },
+    "Slanger" : {
+      "S001" : {
+        "rase" : "Anaconda",
+        "bilde" : "slange1.png",
+        "pris" : 1000,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "giftig" : "false",
+        "kjonn" : "Jente"
+      },
+      "S002" : {
+        "rase" : "Mambas",
+        "bilde" : "slange2.png",
+        "pris" : 3000,
+        "alder" : "Unge",
+        "storrelse" : "Stor",
+        "giftig" : "true",
+        "kjonn" : "Jente"
+      },
+      "S003" : {
+        "rase" : "Kingsnakes",
+        "bilde" : "slange3.png",
+        "pris" : 500,
+        "alder" : "Voksen",
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Jente"
+      },
+      "S004" : {
+        "rase" : "Taipan",
+        "bilde" : "slange4.png",
+        "pris" : 2000,
+        "alder" : "Voksen",
+        "storrelse" : "Liten",
+        "giftig" : "true",
+        "kjonn" : "Jente"
+      },
+      "S005" : {
+        "rase" : "Anilius",
+        "bilde" : "slange5.png",
+        "pris" : 250,
+        "alder" : "Voksen",
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "S006" : {
+        "rase" : "Kobra",
+        "bilde" : "slange6.png",
+        "pris" : 5000,
+        "alder" : "Voksen",
+        "storrelse" : "Stor",
+        "giftig" : "true",
+        "kjonn" : "Gutt"
+      },
+      "S007" : {
+        "rase" : "Mambas",
+        "bilde" : "slange7.png",
+        "pris" : 3500,
+        "alder" : "Unge",
+        "storrelse" : "Stor",
+        "giftig" : "true",
+        "kjonn" : "Gutt"
+      },
+      "S008" : {
+        "rase" : "Ahaetulla",
+        "bilde" : "slange8.png",
+        "pris" : 400,
+        "alder" : "Voksen",
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "S009" : {
+        "rase" : "Kobra",
+        "bilde" : "slange9.png",
+        "pris" : 5500,
+        "alder" : "Unge",
+        "storrelse" : "Stor",
+        "giftig" : "true",
+        "kjonn" : "Jente"
+      },
+      "S010" : {
+        "rase" : "Taipan",
+        "bilde" : "slange10.png",
+        "pris" : 2500,
+        "alder" : "Unge",
+        "storrelse" : "Liten",
+        "giftig" : "true",
+        "kjonn" : "Jente"
+      }
+    },
+    "Fisk" : {
+      "F001" : {
+        "rase" : "Gullfisk",
+        "bilde" : "fisk1.png",
+        "pris" : 50,
+        "antall" : 25
+      },
+      "F002" : {
+        "rase" : "Guppy",
+        "bilde" : "fisk2.png",
+        "pris" : 25,
+        "antall" : 15
+      },
+      "F003" : {
+        "rase" : "Sverddrager",
+        "bilde" : "fisk3.png",
+        "pris" : 29,
+        "antall" : 3
+      },
+      "F004" : {
+        "rase" : "Skalare",
+        "bilde" : "fisk4.png",
+        "pris" : 40,
+        "antall" : 9
+      },
+      "F005" : {
+        "rase" : "Kampfisker",
+        "bilde" : "fisk5.png",
+        "pris" : 25,
+        "antall" : 4
+      },
+      "F006" : {
+        "rase" : "Pansermaller",
+        "bilde" : "fisk6.png",
+        "pris" : 40,
+        "antall" : 22
+      },
+      "F007" : {
+        "rase" : "Tetra",
+        "bilde" : "fisk7.png",
+        "pris" : 15,
+        "antall" : 18
+      },
+      "F008" : {
+        "rase" : "Algeetere",
+        "bilde" : "fisk8.png",
+        "pris" : 60,
+        "antall" : 1
+      },
+      "F009" : {
+        "rase" : "Siamese-fighting",
+        "bilde" : "fisk9.png",
+        "pris" : 29,
+        "antall" : 2
+      },
+      "F010" : {
+        "rase" : "Green-swordtail",
+        "bilde" : "fisk10.png",
+        "pris" : 39,
+        "antall" : 5
+      },
+      "F011" : {
+        "rase" : "Common-molly",
+        "bilde" : "fisk11.png",
+        "pris" : 40,
+        "antall" : 9
+      },
+      "F012" : {
+        "rase" : "Ram-cichild",
+        "bilde" : "fisk12.png",
+        "pris" : 15,
+        "antall" : 12
+      }
+    },
+    "Ogler" : {
+      "O001" : {
+        "rase" : "Varan",
+        "bilde" : "ogle1.png",
+        "pris" : 3500,
+        "storrelse" : "Stor",
+        "giftig" : "false",
+        "kjonn" : "Jente"
+      },
+      "O002" : {
+        "rase" : "Pigghaleagam",
+        "bilde" : "ogle2.png",
+        "pris" : 650,
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "O003" : {
+        "rase" : "Kranset-gekko",
+        "bilde" : "ogle3.png",
+        "pris" : 250,
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Gutt"
+      },
+      "O004" : {
+        "rase" : "Leopard-gekko",
+        "bilde" : "ogle4.png",
+        "pris" : 6000,
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Jente"
+      },
+      "O005" : {
+        "rase" : "Stor-daggekko",
+        "bilde" : "ogle5.png",
+        "pris" : 600,
+        "storrelse" : "Liten",
+        "giftig" : "true",
+        "kjonn" : "Gutt"
+      },
+      "O006" : {
+        "rase" : "Dvergvaran",
+        "bilde" : "ogle6.png",
+        "pris" : 400,
+        "storrelse" : "Liten",
+        "giftig" : "true",
+        "kjonn" : "Gutt"
+      },
+      "O007" : {
+        "rase" : "Perlefirfisle",
+        "bilde" : "ogle7.png",
+        "pris" : 150,
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Jente"
+      },
+      "O008" : {
+        "rase" : "Sand-firfisle",
+        "bilde" : "ogle8.png",
+        "pris" : 300,
+        "storrelse" : "Liten",
+        "giftig" : "false",
+        "kjonn" : "Gutt"
+      }
+    }
+  }
+}

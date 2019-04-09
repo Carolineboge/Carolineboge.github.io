@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nettbutikk</title>
+      <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyAa-13WYw4ghjme80bktJI7hFsbrrEV1q8",
+          authDomain: "nettbutikk-9d250.firebaseapp.com",
+          databaseURL: "https://nettbutikk-9d250.firebaseio.com",
+          projectId: "nettbutikk-9d250",
+          storageBucket: "nettbutikk-9d250.appspot.com",
+          messagingSenderId: "629323630129"
+        };
+        firebase.initializeApp(config);
+      </script>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    const db = firebase.database();
+    const sko = db.ref("varer/sko");
+    const jakker = db.ref("varer/jakker");
+
+
+    function visVare(snapshot){
+      console.log(snapshot.val());
+    }
+    //on = spørrefunksjon
+    //sko.on ("child_added", visVare)
+
+    //sorterer etter pris, (last)
+    sko
+    .orderByChild("pris") //sorteringsfunksjon som sorterer på pris, lavest først
+    .limitToFirst(2)//sorteringsfunksjon, som gir de to siste
+    .on("child_added, visVare");//spørrefunksjon, lytter etter oppføring, og kjører visVare på hver oppføring
+
+    </script>
+  </body>
+</html>

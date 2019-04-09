@@ -1,0 +1,232 @@
+body{
+  background-color: #c7d5ed;
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #959dad;
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #ddd;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/*main*/
+
+
+h2{
+  font-family: georgia, 'times new roman', serif;
+}
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 24%;
+  margin-bottom: 16px;
+  padding: 0 3px;
+  background-color: #e8ebf7;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #959dad;
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+}
+
+/* Navigation links */
+.topnav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.nav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.nav .navbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.topnav a:hover, .nav:hover .navbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the subnav content - positioned absolute */
+.nav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #ddd;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.nav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.nav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.nav:hover .subnav-content {
+  display: block;
+}
+.topnav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.image-container {
+  background-image: url("bilder/dyr/hund.png"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+
+.text {
+  color: white;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
